@@ -13,46 +13,51 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Gmail</a></li>
-          <li><a href="#">Images</a></li>
-          <li><a href="#" id="nav-icon"><img src="images/monochrome-list-icon-24-213240.png" /></a></li>
-          <li><a href="#" id="signin-btn">Sign in</a></li>
-        </ul>
-      </nav>
-    </header>
+
 
     <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#" id="nav-icon"><img src="images/monochrome-list-icon-24-213240.png" /></a></li>
+            <li><a href="#" id="signin-btn">Sign in</a></li>
+          </ul>
+        </nav>
+      </header>
+      
       <div class="main">
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" height="92" width="272" />
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" height="92" width="272" />
         <form method="get" action="action_page.php">
           <label for="search-input"></label>
           <input name="search" type="search" id="search-input" />
-          <input type="submit" value="Google Search"/>
-          <input type="submit" value="I'm Feeling Lucky"/>
+          <br />
+          <input class="search-btn" type="submit" value="Google Search"/>
+          <input class="search-btn" type="submit" value="I'm Feeling Lucky"/>
         </form>
       </div>
+
+      <footer>
+        <div class="left-side">
+          <ul>
+            <li><a href="#">Advertizing</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+
+        <div class="right-side">
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
 
-    <footer>
-      <div class="left-side">
-        <ul>
-          <li><a href="#">Advertizing</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </div>
 
-      <div class="right-side">
-        <ul>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Settings</a></li>
-        </ul>
-      </div>
-    </footer>
 
   </body>
 </html>

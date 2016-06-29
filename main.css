@@ -5,6 +5,17 @@ Author: Rachelle Wood */
   box-size: border-box;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
 ul li {
   list-style: none;
 }
@@ -55,4 +66,84 @@ header ul li #nav-icon {
   font-weight: bold;
   border-radius: 3px;
   letter-spacing: 1px;
+}
+
+#signin-btn:hover {
+  text-decoration: none;
+}
+
+
+/* MAIN */
+
+.main {
+  text-align: center;
+}
+
+#logo {
+  padding: 150px 0 30px 0;
+}
+
+#search-input {
+  padding: 13px 200px;
+  background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC') no-repeat right center;
+  background-size: 5%;
+  border: 0.5px solid #eee;
+  margin-bottom: 15px;
+}
+
+.search-input:focus,
+.search-input:hover {
+  border: 0.5px solid #4683EC;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background-color: #F3F3F3;
+  border: 0;
+  margin: 15px 2px 0;
+  color: #757575;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.search-btn:hover {
+  border: 1px solid #757575;
+}
+
+
+/* FOOTER */
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 35px;
+  background-color: #F3F3F3;
+  border-top: 0.25px solid #eee;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.right-side,
+.left-side {
+  color: #757575;
+}
+
+.left-side {
+  float: left;
+  margin-left: 20px;
+}
+
+.left-side a,
+.right-side a {
+  margin: 0 12px;
+}
+
+.right-side {
+  float: right;
+  margin-right: 20px;
 }
