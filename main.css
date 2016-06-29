@@ -1,0 +1,58 @@
+/* stylesheet for main html page of google homepage for the Odin Project
+Author: Rachelle Wood */
+
+* {
+  box-size: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #7F7F7F;
+}
+
+
+/* HEADER */
+
+header {
+  height: 50px;
+}
+
+header ul {
+  float: right;
+  padding: 10px 0;
+  margin-right: 20px;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header ul li a {
+  color: #000;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+header ul li #nav-icon {
+  margin: 0 15px;
+}
+
+#signin-btn {
+  background-color: #4683EC;
+  margin: 0;
+  border: 0;
+  padding: 8px 14px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
